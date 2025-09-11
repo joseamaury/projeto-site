@@ -35,7 +35,7 @@ header img {
 }
 
 body {
-    background-color: #160077;
+    background-color: #141424;
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -53,12 +53,17 @@ main {
     margin: 0 auto;
     background: #fff;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 15px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
 footer {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 14px;
     color: #f7f4f4;
+}
+
+hr {
+    margin: 10px 0; /* 10px acima e abaixo da linha */
 }
