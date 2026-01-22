@@ -244,27 +244,46 @@
       </div>
     </section>
 
-    <!-- NEWSLETTER -->
-    <section id="newsletter" class="section section-alt">
-      <div class="container">
-        <div class="cta">
-          <div>
-            <h2>Newsletter do Amaurix</h2>
-            <p class="section-subtitle">
-              Conteúdo útil, direto e aplicável. Sem spam. Quando sair ebook/curso, você fica sabendo primeiro.
-            </p>
-          </div>
-
-          <form class="form" action="#" method="post">
-            <label class="sr-only" for="email">Seu e-mail</label>
-            <input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" required />
-            <button class="btn btn-primary" type="submit">Quero entrar</button>
-          </form>
-          <p class="form-hint">* Digite o seu melhor e-mail.</p>
-        </div>
+   <!-- NEWSLETTER -->
+<section id="newsletter" class="section section-alt">
+  <div class="container">
+    <div class="cta">
+      <div>
+        <h2>Newsletter do AmauriX</h2>
+        <p class="section-subtitle">
+          Conteúdo útil, direto e aplicável. Sem spam.
+          Quando sair ebook ou curso, você fica sabendo primeiro.
+        </p>
       </div>
-    </section>
-  </main>
+
+      <form
+        class="form"
+        action="https://formspree.io/f/xaqenjep"
+        method="POST"
+      >
+        <label class="sr-only" for="email">Seu e-mail</label>
+
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="seuemail@exemplo.com"
+          required
+        />
+
+        <!-- Anti-spam invisível -->
+        <input type="text" name="_gotcha" style="display:none">
+
+        <button class="btn btn-primary" type="submit">
+          Quero entrar
+        </button>
+      </form>
+
+      <p class="form-hint">* Digite o seu melhor e-mail.</p>
+    </div>
+  </div>
+</section>
+
 
   <footer class="site-footer">
     <div class="container footer-inner">
