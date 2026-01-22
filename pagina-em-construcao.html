@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Página em construção • AmauriX</title>
+
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #0f172a;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #3b82f6; /* azul brilhoso */
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at top, #1e293b, var(--bg));
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--text);
+      text-align: center;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 32px 28px;
+      max-width: 420px;
+      width: calc(100% - 32px);
+      box-shadow: 0 30px 80px rgba(0,0,0,.45);
+    }
+
+    .avatar {
+      width: 120px;
+      height: auto;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 1.6rem;
+      letter-spacing: 0.5px;
+    }
+
+    p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .status {
+      display: inline-block;
+      margin: 10px 0 18px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(59,130,246,.15);
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.85rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 24px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #020617;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(59,130,246,.45);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <img
+      src="images/amaurix-manut.png"
+      alt="Avatar AmauriX"
+      class="avatar"
+    />
+
+    <h1>AmauriX</h1>
+
+    <span class="status">🚧 Página em construção</span>
+
+    <p>
+      Esta página ainda está sendo preparada.<br>
+      Em breve ela estará no ar com novidades.
+    </p>
+
+    <p>
+      Obrigado pela sua atenção!
+    </p>
+
+    <a href="index.html" class="btn">Voltar</a>
+  </main>
+</body>
+</html>
